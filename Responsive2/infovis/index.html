@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='UTF-8' />
+
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope' rel='stylesheet' type='text/css'>
+        <!--<link href='https://us-west-2b.online.tableau.com/t/amiruzzaman/views/cars/Sheet1?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no' rel='stylesheet' type='text/css'>-->
+
+    </head>
+    <body>
+
+
+
+        <div id="header">
+            <div id="nav">
+                <a href="#cars">Cars</a>
+                <a href="#cereals">Cereals</a>
+                <a href="#films">Films</a> 
+                <a href="#grocerystores">[Grocery Stores]</a> 
+                <a href="#mutualfunds">[Mutual Funds]</a> 
+                <span style="word-spacing:normal; color:white; font-family:'Annie Use Your Telescope', arial, serif; font-size:20px;"><--Click a link to see details!</span>
+            </div>
+        </div>
+
+        <div id="page-wrap">
+
+            <div id="page1">
+                <a name="cars"></a>
+                <div class="page-padding"></div>
+                <h3 class="description">Description of cars.csv file visualization:</h3><br>
+                <p class="para">
+                
+                    This graph shows the comparison of three different origin of cars, such as, American, European, and Japanese. In addition, the graph shows how these three types of origin of cars are different from each other, in terms of average acceleration capacity, average number of cylinders, average horsepower, and average mile per gallon capacity. <br><br>
+From the graph, it is clear that American made cars are better in terms of average acceleration capacity. However, Japanese cars are better in terms of average mile per gallon capacity. This interactive graph include measure names on the top right corner, which can be turned-off and on see the analyzed results. 
+
+                </p>
+                <div style="overflow: auto; height: 80%; padding: 0; margin-left: 37px;" class='tableauPlaceholder' id='viz1518381352382' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Cars_87&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Cars_87&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Cars_87&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                 <script type='text/javascript'>                     var divElement = document.getElementById('viz1518381352382'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            </div> <!--END page1-->
+
+            <div id="page2">
+                <a name="cereals"></a>
+                <div class="page-padding"></div>
+                <h3 class="description">Description of cereal.csv file visualization:</h3><br>
+<p class="para">
+In this case, I used the visualization to show cereal brand name, manufacturer, type, average calories, and average fat associated with a particular cereal brand. This visualization is helpful to get a quick glimpse of each brand. <br><br>
+
+Each block are representing a specific bran of cereal, and the size of the block is determined by the average calories, and average fat. For example, if average calorie and average fat value is higher, then the block is wider and lengthier. The color intensity for average fat is categories as 0 to 5. Where lighter color means close to 0 and darker color means close to 5.
+</p>
+                <div class='tableauPlaceholder' id='viz1518571933468' style='position: relative'><noscript><a href='#'><img alt='Cereals ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ce&#47;Cereals_21&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Cereals_21&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ce&#47;Cereals_21&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                 <script type='text/javascript'>                     var divElement = document.getElementById('viz1518571933468'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            </div> <!--END page2-->
+
+            <div id="page3">
+                <a name="films"></a> 
+                <div class="page-padding"></div>
+                 <h3 class="description">Description of films.csv file visualization:</h3><br> 
+<p class="para">
+				 In this case, I used visualization to difference in type of movies: western, action, war, drama, comedy, horror, music, mystery, science fiction, etc. Each circle represents type of movie used by each groups (i.e., western, action, war, drama, comedy, horror, music, mystery, science fiction, etc.). <br><br>
+
+Average number of records are represented by the color, for example, lighter color represent small number and darker color represent higher number. 
+</p>
+
+                <div class='tableauPlaceholder' id='viz1518573462707' style='position: relative'><noscript><a href='#'><img alt='Films ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Films_26&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Films_26&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Films_26&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                 <script type='text/javascript'>                     var divElement = document.getElementById('viz1518573462707'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            </div> <!--END page3-->
+
+            <div id="page4">
+                <a name="grocerystores"></a> 
+                <div class="page-padding"></div>
+                <h3 class="description">Description of grocery_stores.csv file visualization:</h3><br>
+<p class="para">
+In this case, I used visualization to show difference in gender: male and female. Each circle represents type of payment method used by each groups (i.e., male and female). The size of the circle represents number of counts/frequency for each type and family size. <br><br>
+
+Note that highest payment types used by both groups are: cash, store card, check, debit card, and other. In addition, female group have done more shopping than male group. Different color scheme helps to separate each payment type and different size helps to understand the comparison of each payment type.  
+</p>
+                <div class='tableauPlaceholder' id='viz1518615238682' style='position: relative'><noscript><a href='#'><img alt='Grocery Stores ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Grocery_13&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Grocery_13&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Grocery_13&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                 <script type='text/javascript'>                     var divElement = document.getElementById('viz1518615238682'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            </div> <!--END page4-->
+
+            <div id="page5">
+                <a name="mutualfunds"></a> 
+                <div class="page-padding"></div>
+                <h3 class="description">Description of mutual_funds.csv file visualization:</h3><br> 
+<p class="para">
+				In this case, I used visualization to difference in types of mutual funds. For example, international stocks, large growth, large value, small growth, small value, etc. Each circle represents a company. Also, ratings of company shown in the visualization. 
+The visualization grouped each category based on their ratings. Therefore, higher rating companies are residing in the center, and lower rating companies are residing away from the center. Companies can be separated by their color as well, where, each color represents type of company. 
+</p>
+
+                <div class='tableauPlaceholder' id='viz1518615638165' style='position: relative'><noscript><a href='#'><img alt='Mutual Funds ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MutualFunds_15&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MutualFunds_15&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MutualFunds_15&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                 <script type='text/javascript'>                     var divElement = document.getElementById('viz1518615638165'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            </div> <!--END page5-->
+
+        </div> <!--END page-wrap-->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script>$(document).ready(function() {
+                            function filterPath(string) {
+                            return string
+                                    .replace(/^\//, '')
+                                    .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+                                    .replace(/\/$/, '');
+                            }
+                            $('a[href*=#]').each(function() {
+                            if (filterPath(location.pathname) == filterPath(this.pathname)
+                                    && location.hostname == this.hostname
+                                    && this.hash.replace(/#/, '')) {
+                            var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) + ']');
+                            var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+                            if ($target) {
+                            var targetOffset = $target.offset().top;
+                            $(this).click(function() {
+                            $('html, body').animate({scrollTop: targetOffset}, 2000);
+                            return false;
+                            });
+                            }
+                            }
+                            });
+                            });</script>
+    </body>
+</html>
