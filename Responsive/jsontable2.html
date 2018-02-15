@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Table Data Addition</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+	
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "ajax": 'mydata.txt'
+    } );
+} );
+</script>
+	
+<style>
+
+	
+
+</style>
+
+<script>
+
+</script>
+	
+</head>
+<body>
+<table id="example" class="display" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
